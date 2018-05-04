@@ -17,7 +17,17 @@ public class Greeter {
   /** 
    *
    * This method saves time to add a greeting
-   * @param somoene the name of a person
+   * @return greeting string
+   *
+   */  
+  public final String greet() {
+    return greet();
+  }
+
+  /** 
+   *
+   * This method saves time to add a greeting
+   * @param someone the name of a person
    * @return greeting string
    *
    */  
